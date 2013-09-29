@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".ProjectDescriptionActivity2" >
+    
+<RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#CCFF99"
+        android:layout_marginBottom="10dp"
+      >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+	     	android:layout_marginRight="30dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/simple_leaf" />
+    
+	    <TextView
+	        android:id="@+id/project_name_tv"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@id/imageView1"
+	        android:textColor="#000000"
+	        android:textSize="20dp"
+	        android:textStyle="bold"
+	        android:layout_marginTop="10dp"
+	        android:text="TextView" />
+    
+    </RelativeLayout>
+
+<TextView
+    android:id="@+id/measuring_tv"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="30dp"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/relativeLayout1"
+    android:layout_marginBottom="10dp"
+    android:textColor="#000000"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:text="Measuring...." />
+
+
+<TextView
+    android:id="@+id/please_tv"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/measuring_tv"
+    android:textColor="#000000"
+    android:layout_centerHorizontal="true"
+    android:layout_marginLeft="20dp"
+    android:layout_marginBottom="10dp"
+    android:text="please wait..." />
+
+<TextView
+    android:id="@+id/so_device_tv"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/please_tv"
+    android:layout_centerHorizontal="true"
+    android:textColor="#000000"
+    android:layout_marginLeft="20dp"
+    android:layout_marginBottom="150dp"
+    android:text="...detailed information" />
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="200dp"
+    android:textColor="#000000"
+    android:textSize="15dp"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/so_device_tv"
+    android:layout_centerHorizontal="true"
+    android:onClick="on_click"
+    style="@style/Green_Button_Style"
+    android:text="Cancel Measurement" />
+
+
+
+</RelativeLayout>

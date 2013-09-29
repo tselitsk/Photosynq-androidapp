@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PhotoSynthProj</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_research_proj">ResearchProjActivity</string>
+    <string name="title_activity_research_project_item">ResearchProjectItemActivity</string>
+    <string name="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget diam nulla.</string>
+    <string name="title_activity_project_description">ProjectDescriptionActivity</string>
+    <string name="title_activity_project_description_activity2">ProjectDescriptionActivity2</string>
+    <string name="title_activity_project_description_activity3">ProjectDescriptionActivity3</string>
+    <string name="title_activity_project_description4">ProjectDescription4Activity</string>
+    <string name="title_activity_project_description5">ProjectDescription5Activity</string>
+    <string name="title_activity_project_description_success">ProjectDescriptionSuccessActivity</string>
+    <string name="title_activity_project_description_success2">ProjectDescriptionSuccess2Activity</string>
+    <string name="title_activity_measuring_wait">MeasuringWaitActivity</string>
+    <string name="title_activity_project_success_choices">ProjectSuccessChoicesActivity</string>
+    <string name="title_activity_data_results">DataResultsActivity</string>
+    <string name="title_activity_bluetooth">BluetoothActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_add_tag">AddTagActivity</string>
+    <string name="title_activity_display_results">DisplayResultsActivity</string>
+
+</resources>

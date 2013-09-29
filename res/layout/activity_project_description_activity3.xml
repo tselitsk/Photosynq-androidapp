@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".ProjectDescriptionActivity2" >
+    
+<RelativeLayout
+	    	android:id="@+id/topLayout"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" 
+	        android:orientation="horizontal"
+	        android:layout_marginBottom="20dp"
+	        android:background="@drawable/green_rectangle"
+	 >
+		
+		   <ImageView
+	     	android:id="@+id/imageView1"
+	     	android:layout_marginTop="5dp"
+	     	android:layout_marginLeft="10dp"
+	     	android:layout_marginRight="40dp"
+	     	android:layout_marginBottom="5dp"
+	   	 	android:layout_width="50dp"
+	    	android:layout_height="50dp"
+	    	android:layout_alignParentTop="true"
+	    	android:layout_alignParentLeft="true"
+	    	android:src="@drawable/simple_leaf"
+	     />
+		   <TextView
+	    	android:id="@+id/num_Of_collaborators_tv"
+	    	android:layout_marginLeft="20dp"
+	     	android:layout_marginRight="20dp"
+	     	android:layout_marginBottom="5dp"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_below="@id/imageView1"
+	    	android:textColor="#000000"
+	    	android:text="#+number of collaborators"
+	     />
+		    
+		      	<TextView
+		      	android:layout_marginTop="10dp"
+	     		android:layout_marginBottom="0dp"
+		         android:id="@+id/nameofProject_txtView"
+		         android:layout_width="wrap_content"
+		         android:layout_height="wrap_content"
+		         android:textStyle="bold"
+		         android:textSize="15dp"
+		         android:textColor="#000000"
+		         android:layout_toRightOf="@id/imageView1"
+		         android:text="Name of Project" />
+
+		     <TextView
+		         android:id="@+id/nameOfPerson_tv"
+		         android:layout_width="wrap_content"
+		         android:layout_height="wrap_content"
+		         android:textColor="#000000"
+		         android:layout_toRightOf="@id/imageView1"
+		         android:layout_below="@id/nameofProject_txtView"
+		         android:text="Name of Person" /> 
+		         
+		</RelativeLayout> 
+
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/topLayout"
+    android:layout_marginBottom="50dp"
+    android:layout_marginTop="5dp"
+    android:textColor="#000000"
+    android:textSize="15dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:text="Make sure the clamp fits tightly on the sample, and there are no noticeble gaps around the seal." />
+
+<ImageView
+    android:id="@+id/imageView2"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_marginBottom="75dp"
+    android:layout_marginTop="30dp"
+    android:src="@drawable/attachdevice" />
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="200dp"
+    android:textColor="#000000"
+    android:textSize="20dp"
+    style="@style/Green_Button_Style"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/imageView2"
+    android:layout_centerHorizontal="true"
+    android:onClick="on_click"
+    android:text="Next" />
+
+</RelativeLayout>

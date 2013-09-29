@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".MainActivity" >
+    
+   <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:layout_marginTop="60dp"
+    android:layout_marginBottom="50dp"
+   >
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark_grey"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="Photosynq"
+         />
+        
+           <ImageView
+            android:id="@+id/image_project"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignBottom="@id/title"
+            android:src="@drawable/simple_leaf" />
+       
+       
+   </RelativeLayout>
+    
+    <Button
+        android:onClick="researchButtonClick"
+        android:id="@+id/researchProjButton"
+        style="@style/Green_Rectangle_Style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="My Research Projects" 
+     />
+
+    <Button
+        android:id="@+id/researchCollabButton"
+         style="@style/Green_Rectangle_Style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Recent Research Collaborations" 
+    />
+
+    <Button
+        android:id="@+id/researchNearMeButton"
+        style="@style/Green_Rectangle_Style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Research Near Me"
+     />
+
+    <Button
+        android:id="@+id/calibrateInstrumentButton"
+         style="@style/Green_Rectangle_Style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calibrate Instrument" 
+   />
+    
+    
+
+</LinearLayout>
